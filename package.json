@@ -1,0 +1,23 @@
+{
+  "name": "price",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "worker": "node worker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hlwrld/price.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hlwrld/price/issues"
+  },
+  "homepage": "https://github.com/hlwrld/price#readme",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "request-json": "^0.6.3"
+  }
+}
