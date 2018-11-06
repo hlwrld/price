@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "worker": "node worker.js"
+    "worker": "node src/worker.js",
+    "serve": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/hlwrld/price#readme",
   "dependencies": {
+    "express": "^4.16.3",
     "lodash": "^4.17.10",
+    "moment": "^2.22.2",
     "redis": "^2.8.0",
     "request-json": "^0.6.3"
   }
